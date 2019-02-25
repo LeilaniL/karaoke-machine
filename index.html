@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/redux/3.7.2/redux.js"></script>
-    <script type="text/javascript" src="scripts.js"></script>
-    <title>redux karaoke</title>
-  </head>
-  <body style='height:100vh' onClick='userClick()'>
-    <h1>Redux Karaoke!</h1>
-    <hr>
-    <div id="words">
 
-    </div>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/redux/3.7.2/redux.js"></script>
+  <script type="text/javascript" src="reduxScripts.js"></script>
+  <title>redux karaoke</title>
+</head>
+
+<body style='height:100vh'>
+  <h1>Redux Karaoke!</h1>
+  <hr>
+  <h2>Choose your song:</h2>
+  <ul id="songsToChoose"></ul>
+  <div id="words" onClick='userClick()'>
+
+  </div>
+</body>
+
 </html>
